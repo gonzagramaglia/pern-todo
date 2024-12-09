@@ -1,5 +1,6 @@
 import "./App.css";
 import InputTodo from "./components/InputTodo";
+import ListTodos from "./components/ListTodos";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>Hey there!</p>
         <InputTodo />
       </div>
+      <ListTodos />
     </>
   );
 }
